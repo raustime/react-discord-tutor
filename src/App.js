@@ -1,11 +1,14 @@
 import React from 'react';
-import { Counter } from './features/counter/Counter';
+import { Counter } from './features/Counter';
 import './App.css';
+import Sidebar from './Sidebar';
 
 function App() {
   return (
     <div className="app">
-      <h2>Discord clone</h2>
+      {/* Sidebar */}
+      <Sidebar />
+      {/* Chat */}
     </div>
   );
 }
