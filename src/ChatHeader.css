@@ -15,7 +15,7 @@
 .chatHeader__left > h3 {
     display: flex;
     align-items: center;
-    /* color: white; */
+    color: white; 
 }
 
 .chatHeader__right {
@@ -32,4 +32,20 @@
 
 .chatHeader__right > .MuiSvgIcon-root:hover {
     color: white;
+}
+
+.chatHeader__search {
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: #2f3135;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.chatHeader__search > input {
+    background: transparent;
+    outline-width: 0;
+    color: white;
+    border: none;
 }
